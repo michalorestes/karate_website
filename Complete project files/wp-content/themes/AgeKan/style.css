@@ -1,0 +1,549 @@
+/*
+
+Theme Name: AgeKAN Blue Fists
+
+Theme URI: 
+
+Description: Karate Shotokan London Club 
+
+Author: Jeremi Designer 
+
+Version: 1.0
+
+License: Copyright
+
+License URI: 
+
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu
+
+*/
+
+
+
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+
+-------------------------------------------------------------- */
+
+
+
+/****** reset css ***********/
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit;}
+
+
+
+table {border-collapse: collapse; border-spacing: 0;}
+
+caption, th, td {text-align: left; font-weight: normal;}
+
+form legend {display: none;}
+
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+
+blockquote, q {quotes: "" "";}
+
+ol, ul {list-style: none;}
+
+hr {display: none; visibility: hidden;}
+
+
+
+:focus {outline: 0;}
+
+
+
+
+
+/**************** General Style ************************/
+
+
+
+body {
+
+
+
+	font-family: Arial Tahoma;
+
+	font-size: 12px;
+
+	color: #444549;
+
+	
+
+}
+
+
+
+.fl {float: left;}
+
+.fr {float: right;}
+
+
+
+.cl {clear: left;}
+
+.cr {clear: right;}
+
+.cb {clear: both;}
+
+
+
+h1 {font-size: 24px;}
+
+h3 {font-size: 14px; text-transform: uppercase;}
+
+h6 {font-size: 11px;}
+
+
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+
+
+div#sepContainer {
+
+	height: 14px;
+
+
+
+	display: block;	
+
+}
+
+
+
+.noBorderBottom {border-bottom: none !important;} 
+
+
+
+
+
+.midlle {margin-left: 50px; margin-top: 15px; margin-bottom: 15px;}
+
+.margin {margin-bottom: 15px;}
+
+
+
+
+
+#centerContainer {
+
+	-webkit-box-shadow: 0px 0px 8px #696969;
+
+	-moz-box-shadow: 0px 0px 8px #696969;
+
+	box-shadow: 0px 0px 8px #696969;
+
+	background-color: #FFFFFF;
+
+	font-family: Verdana, Geneva, sans-serif;
+
+	font-size: 12pt;
+
+	width: 960px;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/*************** Content**********************/
+
+
+
+div#Content {
+
+	width: 960px;
+
+	overflow: hidden;
+
+	margin-bottom: 30px;
+
+	margin-top: 30px;
+
+	color: #000000;
+
+	font-size: 12px;
+
+	
+
+	}
+
+	
+
+
+
+
+
+
+
+/**************** Top Section ************************/
+
+
+
+
+
+div#headerContainer {
+
+	background: url(images/BFLogo1.0JPEG.jpg) 0 0 no-repeat; 
+
+	width: 960px;
+
+	height: 180px;
+
+	margin-top: 0px;
+
+}
+
+
+
+
+
+	div#headerContainer a img {
+
+		margin-top: 20px;
+
+		margin-left: 20px;
+
+	}
+
+	
+
+	
+
+/***** Menu ****/
+
+
+
+
+
+
+
+div#menuContainer {
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#367bd8', endColorstr='#01248b'); /* for IE */
+
+	background-image: -moz-linear-gradient(top, #367bd8, #01248b);
+
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #367bd8), color-stop(1.0, #01248b));
+
+	background-color: #FFFFFF;
+
+	height: 80px; 
+
+	
+
+}
+
+ul#nav {
+
+
+
+margin-left: 43px;
+
+
+
+
+
+}
+
+ul#nav li {
+
+
+
+	display: inline;
+
+	float: left;
+
+	background: url(images/menuSep.jpg) center right no-repeat; 
+
+	margin: 23px 45px 0px 0px;
+
+	
+
+	
+
+
+
+
+
+}
+
+
+
+	ul#nav li a{
+
+		
+
+		color: white;
+
+		font-size: 14px;
+
+		text-transform: uppercase;
+
+}
+
+	ul#nav li a:hover {
+
+		text-decoration: none;
+
+		color: #01b0dc;
+
+		
+
+	
+
+	
+
+	}
+
+	ul#nav li a span {
+
+		
+
+		font-size: 12px;
+
+		text-transform: lowercase;
+
+		display: block;
+
+		color: #01b0dc;
+
+		padding-right: 24px;
+
+		
+
+	
+
+	}
+
+
+
+/************** News Section ********************/
+
+div.newsContainer {
+
+	width: 650px;
+
+	
+
+}
+
+
+
+div.newsContainer p.nTitle {
+
+
+
+	height: 35px;
+
+	width: 650px;
+
+	
+
+}
+
+
+
+div.newsContainer p.nTitle a {
+
+	font-size: 20px;
+
+	font-weight: strong;
+
+	margin-left: 10px;
+
+	color: gray;
+
+	text-decoration: none;
+
+}
+
+
+
+div.newsContainer p.nTitle a:hover {
+
+	color: #01b0dc;
+
+	text-decoration: underline;
+
+}
+
+div.newsContainer img.newsIMG {
+
+	float: right;
+
+
+
+}
+
+
+
+div.newsContainer p span.fr a {
+
+
+
+	color: #01b0dc;
+
+	text-decoration: underline;
+
+
+
+}
+
+
+
+.margin2 {
+
+	margin-bottom: 60px;
+
+
+
+
+
+}
+
+
+
+.newsSepBottom {
+
+	margin: 10px 0 5px 100px;
+
+
+
+}
+
+
+
+p.newsFooter {
+
+	margin-bottom: 40px;
+
+
+
+}
+
+
+
+/************* Panel Section *********************/
+
+div.panelContainer {
+
+	
+
+
+
+}
+
+
+
+
+
+div.panelContainer p  {
+
+	text-align: center;
+
+
+
+}
+
+
+
+div.panelContainer p a {
+
+	color: black;
+
+	font-size: 16px;
+
+	
+
+
+
+}
+
+
+
+div.panelContainer p a:hover {
+
+	color: #01b0dc;
+
+
+
+}
+
+
+
+div.panelContainer img {
+
+	
+
+}
+
+	
+
+	
+
+	
+
+/*********** Footer Section ******************/ 
+
+	
+
+div#footerContainer {	
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#367bd8', endColorstr='#01248b'); /* for IE */
+
+	background-image: -moz-linear-gradient(top, #367bd8, #01248b);
+
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #367bd8), color-stop(1.0, #01248b));
+
+	color: white;
+
+	font-family: Verdana, Geneva, sans-serif;
+
+	font-size: 11px;
+
+	height: 75px;
+
+	width: 960px;
+
+	
+
+	
+
+	}
+
+	
+
+	
+
+	div#footerContainer p {
+
+		
+
+		padding-left: 6px;
+
+		padding-right: 6px;
+
+		padding-bottom: 6px;
+
+	}

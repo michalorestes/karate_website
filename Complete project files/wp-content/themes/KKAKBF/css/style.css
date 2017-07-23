@@ -1,0 +1,245 @@
+/**************** General Style ************************/
+
+body {
+
+	font-family: Arial Tahoma;
+	font-size: 12px;
+	color: #444549;
+}
+
+.fl {float: left;}
+.fr {float: right;}
+
+.cl {clear: left;}
+.cr {clear: right;}
+.cb {clear: both;}
+
+h1 {font-size: 24px;}
+h3 {font-size: 14px; text-transform: uppercase;}
+h6 {font-size: 11px;}
+
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+div#sepContainer {
+	height: 14px;
+	background: url('..separatorBG.png') 0 0 repeat-x ;
+	display: block;	
+}
+
+.noBorderBottom {border-bottom: none !important;} 
+
+
+
+
+
+
+#center {
+	-webkit-box-shadow: 0px 0px 8px #696969;
+	-moz-box-shadow: 0px 0px 8px #696969;
+	box-shadow: 0px 0px 8px #696969;
+	background-color: #FFFFFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12pt;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+
+}
+
+
+
+/**************** Top Section ************************/
+
+div#topContainer {
+	background: url(../images/topBGLogo.jpg);
+	height: 110px;
+	width: 960px;
+}
+
+a.logo {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+div#topContactInfo {
+	
+	width: 291px;
+	height: 118px;
+	
+	
+}
+		
+		
+/***** Menu ****/
+
+
+
+div#menuContainer {
+
+	background-image: -moz-linear-gradient(top, #367bd8, #01248b);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #367bd8), color-stop(1.0, #01248b));
+	background-color: #FFFFFF;
+	height: 80px; 
+	
+}
+ul#nav {
+
+margin-left: 43px;
+
+
+}
+ul#nav li {
+
+	display: inline;
+	float: left;
+	background: url(../images/menuSep.jpg) center right no-repeat; 
+	margin: 23px 45px 0px 0px;
+	
+	
+
+
+}
+
+	ul#nav li a{
+		
+		color: white;
+		font-size: 14px;
+		text-transform: uppercase;
+}
+	ul#nav li a:hover {
+		text-decoration: none;
+		color: #01b0dc;
+		
+	
+	
+	}
+	ul#nav li a span {
+		
+		font-size: 12px;
+		text-transform: lowercase;
+		display: block;
+		color: #01b0dc;
+		padding-right: 30px;
+		
+	
+	}
+/*************** Content**********************/
+
+div#Content {
+	width: 960px;
+	overflow: hidden;
+	margin-top: 30px;
+	color: #000000;
+	font-size: 12px;
+	
+	}
+	
+
+/*************** News Section *****************/ 
+
+div#newsContainer {
+	width: 585px;
+	
+}
+
+div#newsContainer p.nTitle {
+	font-size: 20px;
+	font-weight: strong;
+	color: #666666;
+	
+
+
+}
+
+	div#newsContainer  a {
+	color: #666666;
+	text-decoration: none;
+	
+	}
+
+	div#newsContainer  a:hover {
+		
+	color: #01b0dc;
+	text-decoration: inherit;
+	
+	}
+
+
+
+
+}
+
+p.newsSepBottom {
+	margin: 10px 0px 10px 50px;
+	
+
+}
+
+
+p.newsFooter {
+	margin-bottom: 50px;
+
+}
+
+	p.newsFooter a.links {
+	color: #01b0dc;
+	text-decoration: underline;
+}
+
+	p.newsFooter a:hover {
+		color: #01b0dc;
+		text-decoration: none;
+}
+
+
+/************* Panel Section *********************/
+
+div#rightContainer {
+	width: 320px;
+	float: right;
+
+}
+
+
+div#panelContainer p {
+	text-align: center;
+	margin: 3px 0px 0px 0px;
+	font-size: 16px;
+}
+
+div#panelContainer a {
+	color: black;
+
+}
+
+div#panelContainer a:hover {
+	color: #01b0dc;
+	text-decoration: inherit;
+
+}
+/*********** Footer Section ******************/ 
+	
+div#footerContainer {	
+	
+	background-image: -moz-linear-gradient(top, #367bd8, #01248b);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #367bd8), color-stop(1.0, #01248b));
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 75px;
+	width: 960px;
+	
+	
+	}
+	
+	
+	div#footerContainer p {
+		padding-top: 6px;
+		padding-left: 6px;
+		padding-right: 6px;
+		padding-bottom: 6px;
+	}

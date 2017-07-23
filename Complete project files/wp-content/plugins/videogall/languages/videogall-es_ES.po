@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: videogalloptions.php:170
+msgid "Add video"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:169
+#: videogalloptions.php:284
+msgid "* are required fields"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:134
+msgid "Add a new video"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Add new category"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:243
+msgid "Apply shadowbox effect to images"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:232
+msgid "Ascending"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:228
+msgid "Caption"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:147
+#: videogalloptions.php:276
+msgid "Caption of the video"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Category could not be deleted"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:180
+#: videogalloptions.php:277
+msgid "Category of the video"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Category successfully deleted"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:193
+msgid "Configure additional video options"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:165
+#: videogalloptions.php:283
+msgid "Custom Thumbnail of the video"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:226
+msgid "Date"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Default settings restored"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:175
+msgid "Delete Category"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:287
+msgid "Delete Video"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:188
+msgid "Delete category"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:233
+msgid "Descending"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:218
+msgid "Display Caption below the thumbnails"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:253
+msgid "Edit videos"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:227
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:143
+#: videogalloptions.php:275
+msgid "Name of the video"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:159
+#: videogalloptions.php:282
+msgid "New Category Name"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:240
+msgid "Note: If this is blank, then all videos will be on same page"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:220
+msgid "Note: If this setting is enabled and a video does not have caption, then the video \"Name\" would be used by default"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:238
+msgid "Number of videos to display per page"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:248
+msgid "Restore Default Settings"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:247
+msgid "Save Settings"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Settings saved"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:208
+msgid "Size of the thumbnails"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:198
+msgid "Size of the video"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:223
+msgid "Sorting options"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:286
+msgid "Submit Changes"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:139
+#: videogalloptions.php:274
+msgid "URL of the video"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Video added successfully"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Video could not be added"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Video could not be deleted"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Video could not be updated"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Video deleted successfully"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "Video successfully updated"
+msgstr ""
+
+#. Text in echo
+#: videogalloptions.php:132
+msgid "Videogall Settings"
+msgstr ""
+
+#. Text in function
+#: videogalloptions.php:1
+msgid "uncategorized"
+msgstr ""

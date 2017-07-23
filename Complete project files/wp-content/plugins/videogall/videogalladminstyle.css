@@ -1,0 +1,17 @@
+/** Videogall admin stylesheet **/
+
+.videogalladminsection { color: #666; font-family: Helvetica, Arial, sans-serif; margin-top: 50px; }
+.vidlayout { border-collapse: collapse; border: 1px #777 solid; margin: 0; padding: 0; line-height: 100%; width: 500px; }
+.vidlayout td { padding: 5px; margin: 0; width: 80px; border: 1px #777 solid; }
+.videogalladmintitle { padding: 10px 7px; background: #333; text-shadow: #333 1px 1px; color: #fff; font-family: Georgia; font-style: italic; }
+.videogalladminsection h3 { padding: 5px; background: #666; text-shadow: #666 1px 1px; color: #fff; }
+.videogalladminsection input, .videogalladminsection textarea, .videogalladminsection select { padding: 4px; border: 1px #666 solid; font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #444; -moz-border-radius: 0; -webkit-border-radius: 0; }
+#new_category_row { display: none; }
+.edit_new_category_row { display: none; }
+.videogalladminsection .btn { margin-top: 5px; font-weight: bold; background: #444; text-shadow: #444 1px 1px; color: #fff; border: 0 none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.videogalladminsection .btn:hover { cursor: pointer; color: #fff; background: #222; text-shadow: #222 1px 1px; }
+.success { margin-bottom: 5px; padding: 5px; background: #CCFF99; color: #7CCF53; border: 1px #7CCF53 solid; font-weight: bold; text-shadow: #CCFF99 1px 1px; }
+.failure { margin-bottom: 5px; padding: 5px; background: #FFCC99; color: #FF4D4D; border: 1px #FF4D4D solid; font-weight: bold; text-shadow: #FFCC99 1px 1px; }
+.donate_btn { background: url(images/donate_btn.png) no-repeat top left; text-decoration:none;font-weight:bold;width:133px;line-height:29px;display:block;text-align:center;font-size:12px;color:#000;text-shadow:#f7d187 1px 1px; }
+.donate_btn:hover { background-position: bottom left; color:#000; }
+.donate_btn:active { color: #000; }

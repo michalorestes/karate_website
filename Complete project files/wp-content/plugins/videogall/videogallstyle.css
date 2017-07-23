@@ -1,0 +1,7 @@
+/** Videogall stylesheet **/
+/**************************/
+/** You can modify this file to include your own style statements **/
+
+.videogall { float: left; padding: 10px; }
+.videopage { margin-left: 10px; }
+.videogallpages { font-weight: 700; }
